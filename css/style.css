@@ -10,12 +10,12 @@
 	--color-subtitulo:#888;
 	--fondo-footer: #383737;
 	--color-footer:#fff;
-	--color-numeros:#e6e8eb
+	--color-numeros:#e6e8eb;
 
 }
 body{
 	font-family:'Montserrat', sans-serif;
-	color: var(--color-base);
+	
 	font-size: 14px;
 }
 header{
@@ -28,7 +28,7 @@ header{
 
 .btn-nav{
 	border-radius: 70%;
-	border-bottom-color: var(--color-gris);
+	border-bottom-color: var(--color-subtitulo);
 	background-color: transparent;
 }
 
@@ -65,7 +65,7 @@ header{
 }
 #welcome h5{
 	font-size: 60px;
-	color: var(--color-gris);
+	color: var(--color-numeros);
 	text-align:left;
 	font-family: 'Oswald', sans-serif;
 }
@@ -106,5 +106,87 @@ color: var(--color-subtitulo);
 	color: var(--color-titulos);
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+#team h3{
+	font-size: 25px;
+	color: var(--color-titulos);
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	margin-top: 15px;
+	
+}
+#team p{
+	font-size: 16px;
+	color: var(--color-subtitulo);
+	font-family:'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 15px;
+	
+}
+
+#our{
+	background-color: #FFFFFF;
+	padding: 1%
+}
+
+#our h4{
+	font-size: 18px;
+	color: var(--color-subtitulo);
+	text-align: left;
+	margin-bottom: 8px;
+	margin-top: 20px;
+}
+#our h2{
+	font-size: 60px;
+	color: var(--color-titulos);
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 15px;
+}
+#galery{
+	background-color: var(--color-fondo-gris);
+	padding: 5%;
+}
+#galery h2{
+	font-size: 25px;
+	color: var(--color-titulos);
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+
+#footer-copy i.lab{
+	background-color: transparent;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100px;
+	font-size: 20px;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+#footer-copy p{
+	font-size: 16px;
+	color: #FFFFFF
+}
+#footer-copy {
+	margin-bottom: 30px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	padding: 6%;
+	
+}
+#logo p {
+	text-align: left;
+	color: #FFFFFF;
+	font-size: 20px;
 }
